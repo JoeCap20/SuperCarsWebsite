@@ -1,0 +1,86 @@
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18;
+    color: black;
+}
+
+nav, #more-sites{
+    display: block;
+}
+
+a{
+    font-weight: bold;
+}
+
+a:link{
+    color: black;
+}
+
+a:visited{
+    color: rgb(151, 46, 151);
+}
+
+a:hover{
+    color: blue;
+}
+
+a:active{
+    color: greenyellow;
+}
+
+#car-table{
+    background-image: url("");
+    background-size: auto;
+    opacity: 1;
+    position: absolute;
+}
+
+header, main, tr{
+    min-height: 20vh;
+    /* background-color: black; */
+    background: linear-gradient(to right, rgb(104, 255, 104), white, rgb(255, 95, 95));
+}
+
+h1, h2, h3{
+    text-align: center;
+    text-shadow: 3px 3px white;
+    
+}
+
+p{
+    padding: 8px;
+    text-shadow: 3px 3px white;
+    font-size: 16px;
+}
+
+footer{
+    font-size: smaller;
+    padding-top: 20px;
+}
+
+ul{
+    text-align: right;
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(to right, rgb(104, 255, 104), white, rgb(255, 95, 95));
+}
+
+td{
+    font-weight: bold;
+    text-shadow: 3px 3px white;
+    padding: 12px;
+    padding-right: 50px;
+}
+
+.diff:hover{
+    background-color: rgb(250, 3, 217);
+}
+
+.bottom{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 16px;
+}
